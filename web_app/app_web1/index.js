@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', function(req, res){
-    res.send('Hello world, rodou porraaaaaaa');
+    res.send('Hello world');
 })
 
 app.get('/upper/:n', function(req, res){
