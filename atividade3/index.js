@@ -3,7 +3,6 @@ const calculadora = require('./util/calculadora');
 
 const app = express();
 
-// Rotas
 app.get('/somar/:a/:b', (req, res) => {
     const { a, b } = req.params;
     const resultado = calculadora.somar(Number(a), Number(b));
